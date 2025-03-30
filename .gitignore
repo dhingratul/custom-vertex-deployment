@@ -172,3 +172,22 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Keys
+key.json
+vertex_sa.txt
+*key*.json
+*.pem
+*.key
+*credential*
+*secret*
+*token*
+
+# Cursor rules
+.cursor/
+*cursor*
+
+# Test
+scripts/test_endpoint.sh
+test_request.json
+tests/test_endpoint.sh
